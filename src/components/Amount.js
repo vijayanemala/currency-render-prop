@@ -18,7 +18,7 @@ constructor(props) {
     return (
       <div>
         <h1 style={{color:'#3355FF'}}>My Currency Conversion</h1>
-        <span style={spanStyle}>US Dollars : {amount}</span><br/>
+        <span style={spanStyle}>Indian Rupees : {amount}</span><br/>
         <button style={buttonStyle} type="button" onClick={this.onIncrement}>+</button>
         <button  style={buttonStyle}type="button" onClick={this.onDecrement}>-</button>
 

@@ -5,7 +5,7 @@ class Euro extends Component {
     const amount  = this.props.amount * 0.012;
     return (
       <div>
-        <h4 style={{color:'#33ACFF'}}>Rupee to Euros Amount : {amount}</h4>
+        <h4 style={{color:'#33ACFF'}}>Rupees to Euros Amount : {amount}</h4>
       </div>
     )
   }
